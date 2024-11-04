@@ -18,5 +18,7 @@ public class Game {
 
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+        panel.startGameThread();
     }
 }
